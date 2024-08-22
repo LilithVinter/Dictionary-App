@@ -1,12 +1,18 @@
 import React, {useState} from "react";
+import axios from "axios";
 
 export default function Search(){
   let [keyword, setKeyword] = useState("");
 
-  function definition(event){
-    event.preventDefault();
-    alert(`Searhing for ${keyword}`);
+  function definition(response){
+    console.log(response);
+  }
 
+  function searching(event){
+    event.preventDefault();
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    axios.get(apiUrl).then(definition);
   }
 
   function keywordChange(event){
@@ -15,10 +21,9 @@ export default function Search(){
 
   return (
     <div className="SearchEngine">
-      <form onSubmit={definition}>
+      <form onSubmit={searching}>
         <input
           type="search"
-          value="search for a word"
           className="searchBar"
           onChange={keywordChange}
         />
