@@ -1,6 +1,23 @@
-header{
+body{
+  background: linear-gradient(30deg, #020533 5%, #7AC9F1) fixed;
   margin: 40px;
+  color:#ffffff;
 }
+a{
+  color:#7AC9F1;
+}
+
+header{
+  display: inline-flex;
+  align-items: center;
+}
+
 .App-logo{
   max-width:90px;
+  margin-right: 33px ;
+}
+
+h1{
+  font-family: "Jomhuria";
+  margin-right:127px;
 }
