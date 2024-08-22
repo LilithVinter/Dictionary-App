@@ -20,8 +20,11 @@ A live demo of the dictionary app can be found <a href="https://carie-learning-t
 <li>React JSX</li>
 <li>Visual Studio Code</li>
 <li>Netlify</li>
+<li>freeDictionaryAPI</li>
 
 <h2>Credits</h2>
 The weather app was created by Carie (@LilithVinter) as a final project for the SheCodes React workshops.
+<br/>
+<a href="https://dictionaryapi.dev"> freeDictionaryAPI </a> was created by <a href="https://github.com/meetDeveloper/freeDictionaryAPI"> @meetDeveloper </a>
 <br/>
 This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App </a>.
