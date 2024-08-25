@@ -2,6 +2,7 @@ body{
   background: linear-gradient(30deg, #020533 5%, #7AC9F1) fixed;
   margin: 40px;
   color:#ffffff;
+  font-family: "karma";
 }
 a{
   color:#7AC9F1;
@@ -22,6 +23,15 @@ h1{
   margin-right:130px;
 }
 
+h2{
+  color:#FFFFFF;
+  font-size: 50px;
+}
+.phonetics{
+  color:#30C8FF;
+  font-size: 25px;
+}
+
 .searchEngine{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -34,4 +44,22 @@ h1{
   background: #000000;
   opacity: 30%;
   margin-bottom: 20px;
+}
+
+.definitionContainer{
+  padding: 30px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.123);
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+strong{
+  color: #ADB4FF;
+}
+.example {
+  color: #ADB4FF;
 }
