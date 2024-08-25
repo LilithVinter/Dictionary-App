@@ -19,5 +19,19 @@ header{
 
 h1{
   font-family: "Jomhuria";
-  margin-right:127px;
+  margin-right:130px;
+}
+
+.searchEngine{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 130px;
+}
+
+.dictionaryContainer{
+  padding: 30px;
+  border-radius: 10px;
+  background: #000000;
+  opacity: 30%;
+  margin-bottom: 20px;
 }

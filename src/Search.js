@@ -1,14 +1,16 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 
-export default function Search(){
+export default function Search() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
 
-  function definition(response){
-    console.log(response);
+  function definition(response) {
+    setResults(response.data);
   }
 
-  function searching(event){
+  function searching(event) {
     event.preventDefault();
 
     let apiKey = "67160eaaec4o69a29b0ff296te075931";
@@ -17,20 +19,24 @@ export default function Search(){
     axios.get(apiUrl).then(definition);
   }
 
-  function keywordChange(event){
+  function keywordChange(event) {
     setKeyword(event.target.value);
   }
 
   return (
-    <div className="SearchEngine">
-      <form onSubmit={searching}>
-        <input
-          type="search"
-          className="searchBar"
-          onChange={keywordChange}
-        />
-        <input type="submit" value="⌕" className="searchButton" />
-      </form>
+    <div>
+      <div className="searchEngine">
+        <form onSubmit={searching}>
+          <input
+            type="search"
+            className="searchBar"
+            onChange={keywordChange}
+            placeholder="Search for a word"
+          />
+          <input type="submit" value="⌕" className="searchButton" />
+        </form>
+      </div>
+      <Results results={results} />
     </div>
   );
 }

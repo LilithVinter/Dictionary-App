@@ -8,9 +8,10 @@ function App() {
       <header>
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Dictionary</h1>
-        <Search />
       </header>
-      <main></main>
+      <main>
+        <Search />
+      </main>
       <footer>
         <p>
           This project was coded by{" "}
