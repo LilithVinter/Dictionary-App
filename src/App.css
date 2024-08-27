@@ -2,7 +2,7 @@ body{
   background: linear-gradient(30deg, #020533 5%, #7AC9F1) fixed;
   margin: 40px;
   color:#ffffff;
-  font-family: "karma";
+  font-family: "Karma", serif;
 }
 a{
   color:#7AC9F1;
@@ -19,11 +19,13 @@ header{
 }
 
 h1{
-  font-family: "Jomhuria";
+  font-family: "Jomhuria", serif;
   margin-right:130px;
+  font-size: 60px;
 }
 
 h2{
+  font-family:"Karma", serif;
   color:#FFFFFF;
   font-size: 50px;
 }
@@ -46,6 +48,9 @@ h2{
   margin-bottom: 20px;
 }
 
+.dictionaryStart{
+  text-align: center;
+}
 .definitionContainer{
   padding: 30px;
   border-radius: 10px;
@@ -54,7 +59,8 @@ h2{
 }
 
 h3{
-  font-size: 18px;
+  font-size:30px;
+  font-family:"Jomhuria", serif;
 }
 
 strong{
