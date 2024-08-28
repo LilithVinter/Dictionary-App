@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(30deg, #020533 5%, #7AC9F1) fixed;
+  background: linear-gradient(20deg, #020533 0.2%, #7AC9F1) fixed;
   margin: 40px;
   color:#ffffff;
   font-family: "Karma", serif;
@@ -22,6 +22,7 @@ h1{
   font-family: "Jomhuria", serif;
   margin-right:130px;
   font-size: 60px;
+  padding-top: 10px;
 }
 
 h2{
@@ -35,9 +36,31 @@ h2{
 }
 
 .searchEngine{
-  padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 130px;
+}
+
+.searchBar{
+  border-radius: 50px;
+  background-color:#0000007a ;
+  border: 2px solid #ADE9FF;
+  padding: 10px 30px;
+  color:#FFFFFF;
+  font-size: 20px;
+}
+::placeholder {
+  color: #ffffffb6;
+}
+
+.searchButton{
+  margin-left: 20px;
+  border: none;
+  background: none;
+  color:#FFFFFF;
+  font-size: 35px;
+}
+.searchButton:hover{
+  color:#ADE9FF;
 }
 
 .dictionaryContainer{
@@ -46,19 +69,84 @@ h2{
   background: #000000;
   opacity: 30%;
   margin-bottom: 20px;
+  
+}
+.dictionarySection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1000px;
+
 }
 
+.antonymsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #a2b9b8;
+  max-width: 600px;
+}
+
+.antonymsHeader{
+  color:#070E44;
+  flex-basis:600px;
+}
+
+.synonymsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #06cec4;
+  max-width: 600px;
+}
+
+.synonymsHeader{
+  flex-basis: 600px;
+  color:#83E5BE;
+}
+
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;  
+  text-align:justify;
+}
+
+li{
+    display:inline-block;
+    padding-right:15px;
+}
+
+
+.definitionResults{
+  display:grid;
+  grid-template-columns: repeat(3,max-content);
+  justify-content:space-between;
+  
+}
 .dictionaryStart{
   text-align: center;
 }
 .definitionContainer{
+  display: block;
   padding: 30px;
   border-radius: 10px;
+  font-size: 16px;
   background: rgba(0, 0, 0, 0.123);
   margin-bottom: 20px;
+  color: #ADE9FF;
+  max-width: 400px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 h3{
+  color:#ffffff;
   font-size:30px;
   font-family:"Jomhuria", serif;
 }
@@ -68,4 +156,9 @@ strong{
 }
 .example {
   color: #ADB4FF;
+}
+
+footer{
+  margin: 30px;
+  text-align: center;
 }
