@@ -11,6 +11,7 @@ a{
 header{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .App-logo{
@@ -20,9 +21,9 @@ header{
 
 h1{
   font-family: "Jomhuria", serif;
-  margin-right:130px;
-  font-size: 60px;
-  padding-top: 10px;
+  color:#000000;
+  font-size: 90px;
+  margin: 0;
 }
 
 h2{
