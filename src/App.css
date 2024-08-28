@@ -9,8 +9,8 @@ a{
 }
 
 header{
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo{
@@ -28,19 +28,23 @@ h1{
 h2{
   font-family:"Karma", serif;
   color:#FFFFFF;
-  font-size: 50px;
+  font-size: 80px;
 }
 .phonetics{
   color:#30C8FF;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .searchEngine{
-  padding-bottom: 20px;
-  padding-left: 130px;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  width:fit-content;
 }
 
 .searchBar{
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-top: 20px;
   border-radius: 50px;
   background-color:#0000007a ;
   border: 2px solid #ADE9FF;
@@ -81,12 +85,12 @@ h2{
 
 .antonymsContainer{
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   padding: 30px;
   border-radius: 10px;
   font-size: 16px;
   margin-bottom: 20px;
-  color: #a2b9b8;
+  color: #cddfde;
   max-width: 600px;
 }
 
@@ -125,6 +129,7 @@ li{
 
 
 .definitionResults{
+  margin-top: 50px;
   display:grid;
   grid-template-columns: repeat(3,max-content);
   justify-content:space-between;
@@ -132,6 +137,7 @@ li{
 }
 .dictionaryStart{
   text-align: center;
+  font-size: 50px;
 }
 .definitionContainer{
   display: block;
