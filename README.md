@@ -28,6 +28,6 @@ The weather app was created by Carie (@LilithVinter) as a final project for the 
 <br/>
 The app uses Shecodes Dictionary API to retrieve definition data.
 <br/>
-The app uses Shecodes Images API to retrieve images from its content library.
+The app uses Shecodes Images API to retrieve images from Pexels content library.
 <br/>
 This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App </a>.
