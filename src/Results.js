@@ -4,9 +4,7 @@ import Synonyms from "./Synonyms";
 import Antonyms from "./Antonyms";
 
 export default function Result(props) {
-  console.log(props.results);
-
-  if (props.results) {
+  if (props.results.word) {
     return (
       <div>
         <div className="dictionarySection">
@@ -46,6 +44,8 @@ export default function Result(props) {
             );
           })}
         </div>
+
+
       </div>
     );
   } else {
