@@ -20,11 +20,14 @@ A live demo of the dictionary app can be found <a href="https://carie-learning-t
 <li>React JSX</li>
 <li>Visual Studio Code</li>
 <li>Netlify</li>
-<li>SHeCodes Dictionary API</li>
+<li>SheCodes Dictionary API</li>
+<li>Pexels API</li>
 
 <h2>Credits</h2>
 The weather app was created by Carie (@LilithVinter) as a final project for the SheCodes React workshops.
 <br/>
 The app uses Shecodes Dictionary API to retrieve definition data.
+<br/>
+The app uses <a href="https://www.pexels.com/api/documentation/#">Pexels API</a> to retrieve images from Pexxels content library.
 <br/>
 This project was bootstrapped with <a href="https://github.com/facebook/create-react-app">Create React App </a>.
