@@ -24,7 +24,7 @@ A live demo of the dictionary app can be found <a href="https://carie-learning-t
 <li>SheCodes Images API</li>
 
 <h2>Credits</h2>
-The weather app was created by Carie (@LilithVinter) as a final project for the SheCodes React workshops.
+The dictionary app was created by Carie (@LilithVinter) as a final project for the SheCodes React workshops.
 <br/>
 The app uses Shecodes Dictionary API to retrieve definition data.
 <br/>
